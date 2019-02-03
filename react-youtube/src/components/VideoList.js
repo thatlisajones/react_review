@@ -1,12 +1,12 @@
+
 import React from "react";
 
-export const VideoList = (props) => {
-    console.log("VideoList props", props);
+export const VideoList = props => {
     return (
         <ul>
             {props.children}
         </ul>
-    )
+    )    
 }
 
 export const VideoListItem = () => {
